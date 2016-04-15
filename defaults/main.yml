@@ -1,3 +1,4 @@
 ---
 
 puppet_agent_master_server: "puppet"
+puppet_agent_run_interval: "20m"

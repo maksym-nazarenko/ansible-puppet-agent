@@ -1,0 +1,4 @@
+---
+
+- name: restart puppet agent
+  service: name="{{ puppet_agent_service_name }}" state=restarted

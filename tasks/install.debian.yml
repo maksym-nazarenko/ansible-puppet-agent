@@ -5,3 +5,9 @@
     name: puppet-agent
     state: present
     update_cache: yes
+
+- name: Starting agent
+  service:
+    name: "{{ puppet_agent_service_name }}"
+    state: started
+    enabled: true
