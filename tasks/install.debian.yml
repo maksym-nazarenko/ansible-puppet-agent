@@ -1,0 +1,7 @@
+---
+
+- name: Installing agent
+  apt:
+    name: puppet-agent
+    state: present
+    update_cache: yes
